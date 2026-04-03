@@ -1,0 +1,15 @@
+@use '@/styles/mixins' as *;
+
+.contentContainer {
+  max-width: 90%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.loaderContainer {
+  @include flex-center;
+
+  flex-direction: column;
+  min-height: 400px;
+}

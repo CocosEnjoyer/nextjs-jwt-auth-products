@@ -1,0 +1,18 @@
+.btn {
+  padding: 0.8rem;
+  background: var(--btn-bg-color);
+  color: var(--bg-color);
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:disabled {
+    background: color-mix(in srgb, var(--text-light-color) 20%, transparent);
+  }
+}
+
+.error {
+  color: var(--accent-color);
+  font-size: 0.9rem;
+}
